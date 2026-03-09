@@ -156,7 +156,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 ## 📁 Folder Structure
 
 ```
-100-js-experiments/
+rei_creative_coding_lab/
 ├── README.md               
 ├── 01-random-color-generator/
 │   ├── index.html
@@ -183,7 +183,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 
 If you're on a similar journey or just want to say hi:
 
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@reiWebDeveloper](https://github.com/reiWebDeveloper)
 
 ---
 
