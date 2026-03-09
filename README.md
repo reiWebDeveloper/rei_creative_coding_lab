@@ -15,9 +15,14 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 
 ---
 
+---
+## 📊 Progress
+`0 / 100 experiments completed`
+---
+
 ## 🗂️ Experiments
 
-### 🟢 Phase 1 — JS Fundamentals (1–20)
+### Phase 1 — JS Fundamentals (1–20)
 *DOM manipulation, events, basic logic*
 
 - [ ] 01 — Random Color Generator
@@ -43,7 +48,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 
 ---
 
-### 🟡 Phase 2 — Animations & Interactivity (21–40)
+### Phase 2 — Animations & Interactivity (21–40)
 *Canvas, CSS animations, mouse/touch events*
 
 - [ ] 21 — Animated Progress Bar
@@ -69,7 +74,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 
 ---
 
-### 🟠 Phase 3 — Games (41–55)
+### Phase 3 — Games (41–55)
 *Game loops, collision detection, state management*
 
 - [ ] 41 — Snake Game
@@ -90,7 +95,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 
 ---
 
-### 🔵 Phase 4 — Algorithms & Systems (56–70)
+### Phase 4 — Algorithms & Systems (56–70)
 *Sorting, pathfinding, simulation logic*
 
 - [ ] 56 — Sorting Algorithm Visualizer
@@ -111,7 +116,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 
 ---
 
-### 🟣 Phase 5 — Advanced Physics & Simulations (71–85)
+### Phase 5 — Advanced Physics & Simulations (71–85)
 *Complex systems, audio, advanced canvas*
 
 - [ ] 71 — Interactive Particle Galaxy
@@ -132,7 +137,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 
 ---
 
-### 🔴 Phase 6 — Portfolio Projects (86–100)
+### Phase 6 — Portfolio Projects (86–100)
 *3D, multiplayer, engines — the showstoppers*
 
 - [ ] 86 — 3D Rotating Cube
