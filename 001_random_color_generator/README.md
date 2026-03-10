@@ -1,4 +1,4 @@
-# 01 — Random Color Generator
+# 001 — Random Color Generator
 
 > **Phase 1 — JS Fundamentals** | Experiment 1 of 100
 
@@ -48,7 +48,7 @@ A Copy Color button appears after generating a color and allows the user to copy
 
 ## 🔗 Live Demo
 
-[View Live](#)
+[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/001_random_color_generator/)
 
 ---
 
