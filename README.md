@@ -25,7 +25,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 ### Phase 1 — JS Fundamentals (1–20)
 *DOM manipulation, events, basic logic*
 
-- [ ] 01 — Random Color Generator
+- [x] 01 — Random Color Generator
 - [ ] 02 — Click Counter
 - [ ] 03 — Random Number Generator
 - [ ] 04 — Number Guessing Game
