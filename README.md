@@ -17,7 +17,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 
 ---
 ## 📊 Progress
-`1 / 100 experiments completed`
+`2 / 100 experiments completed`
 ---
 
 ## 🗂️ Experiments
