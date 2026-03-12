@@ -26,7 +26,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 *DOM manipulation, events, basic logic*
 
 - [x] 01 — Random Color Generator
-- [ ] 02 — Click Counter
+- [x] 02 — Click Counter
 - [ ] 03 — Random Number Generator
 - [ ] 04 — Number Guessing Game
 - [ ] 05 — Dice Rolling Simulator
