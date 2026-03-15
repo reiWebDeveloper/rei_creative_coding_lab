@@ -17,7 +17,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 
 ---
 ## 📊 Progress
-`2 / 100 experiments completed`
+`3 / 100 experiments completed`
 ---
 
 ## 🗂️ Experiments
@@ -27,7 +27,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 
 - [x] 01 — Random Color Generator
 - [x] 02 — Click Counter
-- [ ] 03 — Random Number Generator
+- [x] 03 — Random Number Generator
 - [ ] 04 — Number Guessing Game
 - [ ] 05 — Dice Rolling Simulator
 - [ ] 06 — Random Password Generator
