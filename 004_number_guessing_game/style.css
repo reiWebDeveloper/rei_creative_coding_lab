@@ -1,0 +1,141 @@
+body {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+    margin: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxContainer {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.boxElement {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow 0.2s ease-out, border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.boxElement:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 8px 3px rgba(0,0,0,0.25);
+}
+
+/* box highlight on game end */
+.boxElement.correct {
+    border-color: #4CAF50;
+    background-color: #e8f5e9;
+}
+
+.boxElement > p {
+    font-size: 48px;
+    font-weight: 600;
+    display: none;
+}
+
+#userLifeLeftContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+#userLifeLeftContainer > p {
+    margin: 0;
+}
+
+#heartShapeEl {
+    color: #e0005a;
+    font-size: 18px;
+}
+
+#generateBtn {
+    margin-top: 25px;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-family: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+#generateBtn:hover {
+    opacity: 0.8;
+}
+
+/* base state is hidden (opacity 0) so the .show transition works correctly */
+#resultMessage {
+    margin: 20px 0;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    min-height: 40px;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+}
+
+/* active state */
+#resultMessage.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* win */
+.win {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* lose */
+.lose {
+    background-color: #f44336;
+    color: white;
+}
+
+main {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+    background-color: black;
+    color: white;
+    font-weight: 200;
+}
+
+footer > p {
+    margin: 0;
+    padding: 8px;
+}
