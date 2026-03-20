@@ -48,7 +48,7 @@ The game can be restarted at any time using the **Generate** button.
 
 ## 🔗 Live Demo
 
-[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/004_find_the_number/)
+[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/004_number_guessing_game/)
 
 ---
 
