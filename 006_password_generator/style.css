@@ -1,0 +1,134 @@
+/* using variables */
+:root {
+    --primary: #6366f1;
+    --primary-dark: #4f46e5;
+    --bg: #0f172a;
+    --card-bg: rgba(255, 255, 255, 0.05);
+    --text: #e2e8f0;
+    --muted: #94a3b8;
+    --border: rgba(255, 255, 255, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(circle at top, #1e293b, #0f172a);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* layout */
+.app {
+    width: 100%;
+    max-width: 480px;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.subtitle {
+    color: var(--muted);
+    font-size: 14px;
+}
+
+/* card layout */
+.card {
+    background: var(--card-bg);
+    backdrop-filter: blur(12px);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.highlight {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+/* password box */
+.password-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 12px 15px;
+    transition: 0.3s ease;
+}
+
+.password-container:hover {
+    border-color: var(--primary);
+}
+
+/* pass text */
+#passwordDisplay {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #cbd5f5;
+    overflow-x: auto;
+}
+
+#copyBtn {
+    background: none;
+    border: none;
+    color: var(--muted);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#copyBtn:hover {
+    color: var(--primary);
+    transform: scale(1.1);
+}
+
+/* copy text */
+.copy-success {
+    color: #22c55e !important;
+    transform: scale(1.15);
+}
+
+.btn {
+    width: 100%;
+    margin-top: 25px;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(99, 102, 241, 0.4);
+}
+
+footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--muted);
+}

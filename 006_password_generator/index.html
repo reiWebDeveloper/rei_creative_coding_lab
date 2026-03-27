@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Password Generator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A random password generator page build with vanilla JavaScript">
+
+        <!-- Google font (Poppins) -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <!-- Font Awesome (Icons) -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="app">
+            <header>
+                <h1>Password Generator</h1>
+                <p class="subtitle">Generate secure, random passwords instantly</p>
+            </header>
+
+            <main class="card">
+                <p>
+                    Click <span class="highlight">Generate Password</span> to create a new one
+                </p>
+
+                <div class="password-container">
+                    <div id="passwordDisplay">h3b1_THlwz98</div>
+                    <button id="copyBtn" aria-label="Copy password">
+                        <i class="fa-regular fa-copy"></i>
+                    </button>
+                </div>
+
+                <button type="button" id="generatePassBtn" class="btn">
+                    Generate Password
+                </button>
+            </main>
+
+            <footer>
+                <p>Made by Rei Kraja</p>
+                <p>Vanilla JavaScript</p>
+            </footer>
+        </div>
+
+        <script src="script.js" defer></script>
+    </body>
+</html>
