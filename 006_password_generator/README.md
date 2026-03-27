@@ -57,7 +57,7 @@ A copy button allows users to copy the password to clipboard, with a checkmark s
 
 ## ⏱️ Time Taken
 
-~8-9 hours
+~5-6 hours
 
 ---
 
