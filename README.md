@@ -17,7 +17,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 
 ---
 ## 📊 Progress
-`7 / 100 experiments completed`
+`8 / 100 experiments completed`
 ---
 
 ## 🗂️ Experiments
@@ -32,7 +32,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 - [x] 05 — Dice Rolling Simulator
 - [x] 06 — Random Password Generator
 - [x] 07 — Simple Calculator
-- [ ] 08 — Tip Calculator
+- [x] 08 — Tip Calculator
 - [ ] 09 — Countdown Timer
 - [ ] 10 — Stopwatch
 - [ ] 11 — Reaction Speed Test
