@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #dfe9f3 0%, #ffffff 100%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    min-width: 450px;
+
+    background: white;
+    padding: 35px 30px;
+    border-radius: 16px;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.08),
+        0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* Title */
+.title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #333;
+    letter-spacing: 2px;
+}
+
+/* Countdown Header */
+#countdownTxt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    min-width: inherit;
+}
+
+/* Labels */
+.countdownTextDisplay {
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+    letter-spacing: 1px;
+}
+
+/* Select Boxes */
+.controlCountdown {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    cursor: pointer;
+    background: #fafafa;
+
+    transition: all 0.2s ease;
+}
+
+.controlCountdown:hover {
+    border-color: #aaa;
+}
+
+.controlCountdown:focus {
+    outline: none;
+    border-color: rgb(109, 241, 109);
+    box-shadow: 0 0 0 3px rgba(109,241,109,0.25);
+}
+
+.countdownDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.actionButtonsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-width: inherit;
+    padding: 10px;
+    gap: 15px;
+}
+
+/* Shared Button Style */
+.btn {
+    padding: 12px 18px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all .25s ease;
+}
+
+#startCountdownBtn {
+    min-width: inherit;
+    padding: 14px;
+    background-color: rgb(109, 241, 109);
+    border-radius: 10px;
+    letter-spacing: 6px;
+    font-size: 24px;
+    cursor: pointer;
+    color: rgb(39, 37, 37);
+
+    box-shadow: 
+        0 6px 14px rgba(0, 0, 0, 0.15),
+        0 10px 25px rgba(109, 241, 109, 0.35);
+}
+
+#startCountdownBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 
+        0 10px 20px rgba(0, 0, 0, 0.2),
+        0 14px 35px rgba(109, 241, 109, 0.45);
+}
+
+#startCountdownBtn:active {
+    transform: translateY(1px);
+}
+
+/* Pause Button */
+#pauseCountdownBtn {
+    background: #ffd166;
+    color: #333;
+    box-shadow: 0 5px 15px rgba(255, 209, 102, 0.4);
+}
+
+/* Cancel Button */
+#cancelCountdownBtn {
+    background: #ff6b6b;
+    color: white;
+    box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+}
+
+#pauseCountdownBtn, #cancelCountdownBtn {
+    display: none;
+}
+
+#countdownDisplay {
+    font-size: 48px;
+}
+
+footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #aaa;
+    min-width: 450px;
+}

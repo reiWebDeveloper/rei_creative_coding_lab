@@ -17,7 +17,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 
 ---
 ## 📊 Progress
-`8 / 100 experiments completed`
+`9 / 100 experiments completed`
 ---
 
 ## 🗂️ Experiments
@@ -33,7 +33,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 - [x] 06 — Random Password Generator
 - [x] 07 — Simple Calculator
 - [x] 08 — Tip Calculator
-- [ ] 09 — Countdown Timer
+- [x] 09 — Countdown Timer
 - [ ] 10 — Stopwatch
 - [ ] 11 — Reaction Speed Test
 - [ ] 12 — Typing Speed Test
