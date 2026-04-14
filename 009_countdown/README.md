@@ -1,4 +1,4 @@
-# 009 — Tip Calculator
+# 009 — Countdown
 
 > **Phase 1 — JS Fundamentals** | Experiment 9 of 100
 

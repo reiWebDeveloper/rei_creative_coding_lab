@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    min-width: 450px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stopwatchContainer {
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: inherit;
+    padding: 25px 35px;
+    gap: 20px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08), 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    letter-spacing: 5px;
+}
+
+#stopwatchDisplay {
+    font-size: 48px;
+}
+
+.buttonActions {
+    display: flex;
+    min-width: inherit;
+}
+
+.btn {
+    padding: 12px;
+    flex: 1;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    letter-spacing: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: transform 0.15s, filter 0.15s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.05);
+}
+
+#startStopBtn {
+    background-color: rgb(80, 228, 80);
+    color: #1a5c1a;
+}
+
+#resetBtn {
+    background-color: rgb(242, 184, 76);
+    color: #6b4a0a;
+}
+
+footer {
+    margin-top: 10px;
+    display: flex;
+    min-width: inherit;
+    justify-content: space-between;
+    color: rgba(167, 167, 167, 0.925);
+    font-size: 12px;
+}
