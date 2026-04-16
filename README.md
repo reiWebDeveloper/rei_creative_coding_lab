@@ -35,7 +35,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 - [x] 08 — Tip Calculator
 - [x] 09 — Countdown Timer
 - [x] 10 — Stopwatch
-- [ ] 11 — Reaction Speed Test
+- [x] 11 — Reaction Speed Test
 - [ ] 12 — Typing Speed Test
 - [ ] 13 — Memory Number Game
 - [ ] 14 — To-Do List

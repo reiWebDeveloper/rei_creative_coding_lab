@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0A1931;
+    color: #a7ebf2;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.mainCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-width: 600px;
+}
+
+.reactionTestCard {
+    margin-bottom: 20px;
+    max-width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #26658C;
+    box-shadow: 0 10px 30px rgba(84, 171, 191, 0.15),
+                0 5px 15px rgb(38, 101, 140, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.clickCard {
+    min-width: 500px;
+    min-height: 250px;
+    background-color: #023859;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clickCard:hover {
+    filter: brightness(1.1);
+}
+
+.dataCard {
+    margin-top: 20px;
+    min-width: inherit;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.avg {
+    grid-column: 1 / -1; 
+}
+
+.testData {
+    min-width: 100px;
+    min-height: 100px;
+    background-color: #54ACBF;
+    border-radius: 12px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.reactionDataDisplay, #averageReactionDataDisplay {
+  font-family: 'DM Mono', monospace;
+}
+
+footer {
+    min-width: inherit;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
