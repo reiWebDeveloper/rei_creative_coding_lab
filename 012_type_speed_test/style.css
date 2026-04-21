@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-family: monospace, sans-serif;
+}
+
+main {
+    max-width: 800px;
+}
+
+.timerContainer {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#timerBorder {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(orange 0deg, lightgray 0deg);
+}
+
+#timer {
+    position: relative;
+    z-index: 1;
+    font-size: 24px; 
+}
+
+.textContainer {
+    height: 90px;
+    border: 1px solid orange;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+#textToWrite{
+    white-space: nowrap;
+    text-align: center;
+    font-size: 28px;
+    width: auto;
+    font-weight: bold;
+    transition: transform 0.1s ease;
+    color: gray;
+}
+
+.correct {
+    color: orange;
+}
+
+.wrong {
+    color: red;
+}
+
+#tryAgainBtn {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ffa600;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#tryAgainBtn:hover {
+    filter: brightness(1.1);
+}
+
+footer {
+    margin-top: 20px;
+    display: flex;
+    width: inherit;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: 12px;
+    color: gray;
+}
