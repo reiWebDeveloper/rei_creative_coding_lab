@@ -38,7 +38,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 - [x] 11 — Reaction Speed Test
 - [x] 12 — Typing Speed Test
 - [x] 13 — Memory Number Game
-- [ ] 14 — To-Do List
+- [x] 14 — To-Do List
 - [ ] 15 — Note Taking App
 - [ ] 16 — Keyboard Key Visualizer
 - [ ] 17 — Drag & Drop Box
