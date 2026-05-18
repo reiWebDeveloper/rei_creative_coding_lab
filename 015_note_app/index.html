@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Note App</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <main>
+            <!--First page-->
+            <div class="note-container page active">
+                <div>
+                    <header>
+                        <input id="note-title" placeholder="Title" type="text">
+                    </header>
+                    <textarea id="note-text" placeholder="Once upon a time..."></textarea>
+                    <p id="messageText"></p>
+                    <button id="save-note">save note</button>
+                </div>
+                <div class="next-btn-container">
+                    <span class="circle"></span>
+                    <button class="nextBtn">&rarr;</button>
+                </div>
+            </div>
+
+            <!--Second page-->
+            <div class="note-list-container page"> 
+                <div class="back-btn-container">
+                    <span class="circle"></span>
+                    <button class="backBtn">&larr;</button>
+                </div>
+                <div id="list-container">
+                    <p id="nothingToShowMsg"></p>
+                    <ul id="note-list"></ul>
+                </div>
+            </div>
+
+            <!--Third Page-->
+            <div class="note-expanded page">
+                <div class="back-btn-container">
+                    <span class="circle"></span>
+                    <button class="backBtn">&larr;</button>
+                </div>
+                <div class="note-expanded-container">
+                    <h2 id="note-title-expanded"></h2>
+                    <div id="note-text-expContainer">
+                        <p id="note-text-expanded"></p>
+                    </div>
+                    
+                </div>
+            </div>
+                
+        </main>
+        <script src="script.js" defer></script>
+    </body>
+</html>
