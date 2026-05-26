@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Keyboard Visualizer</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="main">
+            <!-- Info Panel -->
+            <div id="text-box-container">
+                <div class="info-box">Key: <span id="text-box-key">-</span></div>
+                <div class="info-box">Code: <span id="text-box-key-code">-</span></div>
+            </div>
+
+            <div class="keyboard-container">
+                <!-- Function / Escape Row -->
+                <div class="keyboard-row">
+                    <div class="keyboard-key fn-key" data-key="Escape"><p class="keyboard-key-holder">Esc</p></div>
+                    <div class="keyboard-key fn-key" data-key="F1"><p class="keyboard-key-holder">F1</p></div>
+                    <div class="keyboard-key fn-key" data-key="F2"><p class="keyboard-key-holder">F2</p></div>
+                    <div class="keyboard-key fn-key" data-key="F3"><p class="keyboard-key-holder">F3</p></div>
+                    <div class="keyboard-key fn-key" data-key="F4"><p class="keyboard-key-holder">F4</p></div>
+                    <div class="keyboard-key fn-key" data-key="F5"><p class="keyboard-key-holder">F5</p></div>
+                    <div class="keyboard-key fn-key" data-key="F6"><p class="keyboard-key-holder">F6</p></div>
+                    <div class="keyboard-key fn-key" data-key="F7"><p class="keyboard-key-holder">F7</p></div>
+                    <div class="keyboard-key fn-key" data-key="F8"><p class="keyboard-key-holder">F8</p></div>
+                    <div class="keyboard-key fn-key" data-key="F9"><p class="keyboard-key-holder">F9</p></div>
+                    <div class="keyboard-key fn-key" data-key="F10"><p class="keyboard-key-holder">F10</p></div>
+                    <div class="keyboard-key fn-key" data-key="F11"><p class="keyboard-key-holder">F11</p></div>
+                    <div class="keyboard-key fn-key" data-key="F12"><p class="keyboard-key-holder">F12</p></div>
+                </div>
+
+                <!-- Numbers & Symbols -->
+                <div class="keyboard-row">
+                    <div class="keyboard-key" data-key="Backquote"><p class="keyboard-key-holder">`</p></div>
+                    <div class="keyboard-key" data-key="Digit1"><p class="keyboard-key-holder">1</p></div>
+                    <div class="keyboard-key" data-key="Digit2"><p class="keyboard-key-holder">2</p></div>
+                    <div class="keyboard-key" data-key="Digit3"><p class="keyboard-key-holder">3</p></div>
+                    <div class="keyboard-key" data-key="Digit4"><p class="keyboard-key-holder">4</p></div>
+                    <div class="keyboard-key" data-key="Digit5"><p class="keyboard-key-holder">5</p></div>
+                    <div class="keyboard-key" data-key="Digit6"><p class="keyboard-key-holder">6</p></div>
+                    <div class="keyboard-key" data-key="Digit7"><p class="keyboard-key-holder">7</p></div>
+                    <div class="keyboard-key" data-key="Digit8"><p class="keyboard-key-holder">8</p></div>
+                    <div class="keyboard-key" data-key="Digit9"><p class="keyboard-key-holder">9</p></div>
+                    <div class="keyboard-key" data-key="Digit0"><p class="keyboard-key-holder">0</p></div>
+                    <div class="keyboard-key" data-key="Minus"><p class="keyboard-key-holder">-</p></div>
+                    <div class="keyboard-key" data-key="Equal"><p class="keyboard-key-holder">=</p></div>
+                    <div class="keyboard-key backspace-key" data-key="Backspace"><p class="keyboard-key-holder">Backspace</p></div>
+                </div>
+
+                <!-- Tab & Top Letters -->
+                <div class="keyboard-row">
+                    <div class="keyboard-key tab-key" data-key="Tab"><p class="keyboard-key-holder">Tab</p></div>
+                    <div class="keyboard-key" data-key="KeyQ"><p class="keyboard-key-holder">Q</p></div>
+                    <div class="keyboard-key" data-key="KeyW"><p class="keyboard-key-holder">W</p></div>
+                    <div class="keyboard-key" data-key="KeyE"><p class="keyboard-key-holder">E</p></div>
+                    <div class="keyboard-key" data-key="KeyR"><p class="keyboard-key-holder">R</p></div>
+                    <div class="keyboard-key" data-key="KeyT"><p class="keyboard-key-holder">T</p></div>
+                    <div class="keyboard-key" data-key="KeyY"><p class="keyboard-key-holder">Y</p></div>
+                    <div class="keyboard-key" data-key="KeyU"><p class="keyboard-key-holder">U</p></div>
+                    <div class="keyboard-key" data-key="KeyI"><p class="keyboard-key-holder">I</p></div>
+                    <div class="keyboard-key" data-key="KeyO"><p class="keyboard-key-holder">O</p></div>
+                    <div class="keyboard-key" data-key="KeyP"><p class="keyboard-key-holder">P</p></div>
+                    <div class="keyboard-key" data-key="BracketLeft"><p class="keyboard-key-holder">[</p></div>
+                    <div class="keyboard-key" data-key="BracketRight"><p class="keyboard-key-holder">]</p></div>
+                    <div class="keyboard-key backslash-key" data-key="Backslash"><p class="keyboard-key-holder">\</p></div>
+                </div>
+
+                <!-- Caps Lock & Home Row -->
+                <div class="keyboard-row">
+                    <div class="keyboard-key caps-key" data-key="CapsLock"><p class="keyboard-key-holder">Caps</p></div>
+                    <div class="keyboard-key" data-key="KeyA"><p class="keyboard-key-holder">A</p></div>
+                    <div class="keyboard-key" data-key="KeyS"><p class="keyboard-key-holder">S</p></div>
+                    <div class="keyboard-key" data-key="KeyD"><p class="keyboard-key-holder">D</p></div>
+                    <div class="keyboard-key" data-key="KeyF"><p class="keyboard-key-holder">F</p></div>
+                    <div class="keyboard-key" data-key="KeyG"><p class="keyboard-key-holder">G</p></div>
+                    <div class="keyboard-key" data-key="KeyH"><p class="keyboard-key-holder">H</p></div>
+                    <div class="keyboard-key" data-key="KeyJ"><p class="keyboard-key-holder">J</p></div>
+                    <div class="keyboard-key" data-key="KeyK"><p class="keyboard-key-holder">K</p></div>
+                    <div class="keyboard-key" data-key="KeyL"><p class="keyboard-key-holder">L</p></div>
+                    <div class="keyboard-key" data-key="Semicolon"><p class="keyboard-key-holder">;</p></div>
+                    <div class="keyboard-key" data-key="Quote"><p class="keyboard-key-holder">'</p></div>
+                    <div class="keyboard-key enter-key" data-key="Enter"><p class="keyboard-key-holder">Enter</p></div>
+                </div>
+
+                <!-- Shift & Bottom Row -->
+                <div class="keyboard-row">
+                    <div class="keyboard-key shift-key-left" data-key="ShiftLeft"><p class="keyboard-key-holder">Shift</p></div>
+                    <div class="keyboard-key" data-key="KeyZ"><p class="keyboard-key-holder">Z</p></div>
+                    <div class="keyboard-key" data-key="KeyX"><p class="keyboard-key-holder">X</p></div>
+                    <div class="keyboard-key" data-key="KeyC"><p class="keyboard-key-holder">C</p></div>
+                    <div class="keyboard-key" data-key="KeyV"><p class="keyboard-key-holder">V</p></div>
+                    <div class="keyboard-key" data-key="KeyB"><p class="keyboard-key-holder">B</p></div>
+                    <div class="keyboard-key" data-key="KeyN"><p class="keyboard-key-holder">N</p></div>
+                    <div class="keyboard-key" data-key="KeyM"><p class="keyboard-key-holder">M</p></div>
+                    <div class="keyboard-key" data-key="Comma"><p class="keyboard-key-holder">,</p></div>
+                    <div class="keyboard-key" data-key="Period"><p class="keyboard-key-holder">.</p></div>
+                    <div class="keyboard-key" data-key="Slash"><p class="keyboard-key-holder">/</p></div>
+                    <div class="keyboard-key shift-key-right" data-key="ShiftRight"><p class="keyboard-key-holder">Shift</p></div>
+                </div>
+
+                <!-- Modifiers & Space -->
+                <div class="keyboard-row">
+                    <div class="keyboard-key utility-key" data-key="ControlLeft"><p class="keyboard-key-holder">Ctrl</p></div>
+                    <div class="keyboard-key utility-key" data-key="MetaLeft"><p class="keyboard-key-holder">Win</p></div>
+                    <div class="keyboard-key utility-key" data-key="AltLeft"><p class="keyboard-key-holder">Alt</p></div>
+                    <div class="keyboard-key space-key" data-key="Space"><p class="keyboard-key-holder"></p></div>
+                    <div class="keyboard-key utility-key" data-key="AltRight"><p class="keyboard-key-holder">Alt</p></div>
+                    <div class="keyboard-key utility-key" data-key="MetaRight"><p class="keyboard-key-holder">Win</p></div>
+                    <div class="keyboard-key utility-key" data-key="ControlRight"><p class="keyboard-key-holder">Ctrl</p></div>
+                </div>
+            </div>
+            <footer>
+                <p>Made by Rei Kraja</p>
+                <p>With Vanilla Javascript</p>
+            </footer>
+        </div>
+
+        <script src="script.js" defer></script>
+    </body>
+</html>

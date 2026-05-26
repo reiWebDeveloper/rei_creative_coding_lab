@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #13131a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: var(--font-mono, 'Courier New', monospace);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Info panel */
+#text-box-container {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-bottom: 1.25rem;
+}
+
+.info-box {
+    background: #1e1e24;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 13px;
+    color: #888;
+    min-width: 130px;
+}
+
+.info-box span {
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    color: #eee;
+    margin-top: 2px;
+    min-height: 20px;
+}
+
+/* Keyboard shell */
+.keyboard-container {
+    background: #1e1e22;
+    border-radius: 14px;
+    padding: 18px 16px 20px;
+    border: 1.5px solid #333;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    font-family: 'Courier New', monospace;
+}
+
+.keyboard-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4px;
+    margin-bottom: 4px;
+}
+
+/* Base key */
+.keyboard-key {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    min-width: 36px;
+    padding: 0 6px;
+    background: #2e2e34;
+    border-radius: 6px;
+    border: 1px solid #444;
+    border-bottom: 3px solid #111;
+    color: #ccc;
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    cursor: default;
+    user-select: none;
+    transition: background 0.08s, color 0.08s, border-bottom-width 0.06s, transform 0.06s;
+    box-sizing: border-box;
+}
+
+.keyboard-key p {
+    margin: 0;
+    pointer-events: none;
+}
+
+/* Function row — shorter */
+.fn-key {
+    height: 26px;
+    font-size: 10px;
+}
+
+/* Wide keys */
+.backspace-key  { min-width: 82px; }
+.tab-key        { min-width: 64px; }
+.backslash-key  { min-width: 54px; }
+.caps-key       { min-width: 76px; }
+.enter-key      { min-width: 88px; }
+.shift-key-left { min-width: 104px; }
+.shift-key-right{ min-width: 104px; }
+.utility-key    { min-width: 52px; }
+.space-key      { min-width: 240px; }
+
+/* Active / pressed state */
+.active {
+    background: #4f3fd6;
+    border-color: #7060f0;
+    border-bottom-color: #2a1fa0;
+    border-bottom-width: 1px;
+    color: #fff;
+    transform: translateY(2px);
+}
+
+footer {
+    margin-top: 20px;
+    display: flex;
+    color: #888;
+    font-size: 12px;
+    min-width: 500px;
+    justify-content: space-between;
+}
