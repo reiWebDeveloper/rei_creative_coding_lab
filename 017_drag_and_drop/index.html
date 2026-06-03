@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Drag and Drop Shapes</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="main">
+            <div class="left-side-container">
+                <div class="left-side-shape-container">
+                    <div class="shape" id="filled-circle-shape" draggable="true"></div>
+                </div>
+                <div class="left-side-shape-container">
+                    <div class="shape" id="filled-square-shape" draggable="true"></div>
+                </div>
+                <div class="left-side-shape-container">
+                    <div class="shape" id="filled-triangle-shape" draggable="true"></div>
+                </div>
+                <div class="left-side-shape-container">
+                    <div class="shape" id="filled-rhombus-shape" draggable="true"></div>
+                </div>
+            </div>
+
+            <div class="info-container">
+                <div class="matched-container">
+                    <p id="allMatchedMsg"></p>
+                    <p><span id="matched">0</span>/4</p>
+                </div>
+                <div class="instruction">
+                    <p>Drag each shape to its matching outline</p>
+                </div>
+                <div class="btn-container">
+                    <button type="button" id="btn">RE-ORDER</button>
+                </div>
+            </div>
+
+            <div class="right-side-container">
+                <div class="right-side-shape-container">
+                    <div class="shape outline" id="outlined-circle-shape"></div>
+                </div>
+                <div class="right-side-shape-container" >
+                    <div class="shape outline" id="outlined-square-shape"></div>
+                </div>
+                <div class="right-side-shape-container">
+                    <svg class="shape outline" id="outlined-triangle-shape" 
+                        width="80" height="80" viewBox="0 0 80 80">
+                        <polygon points="40,5 75,75 5,75" 
+                                fill="none" 
+                                stroke="#a0aec0" 
+                                stroke-width="2" 
+                                stroke-dasharray="4 4"/>
+                    </svg>
+                </div>
+                <div class="right-side-shape-container">
+                    <svg class="shape outline" id="outlined-rhombus-shape" 
+                        width="80" height="80" viewBox="0 0 80 80">
+                        <polygon points="40,5 75,40 40,75 5,40" 
+                                fill="none" 
+                                stroke="#a0aec0" 
+                                stroke-width="2" 
+                                stroke-dasharray="4 4"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js" defer></script>
+    </body>
+</html>
