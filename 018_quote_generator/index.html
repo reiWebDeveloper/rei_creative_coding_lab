@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <title>Stage Economics — Quote Generator</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <p class="brand">Stage Economics</p>
+            <h1>Words from the <em>Wings</em></h1>
+            <div class="stage-line"></div>
+        </header>
+        
+        <div class="container">
+            <div class="filter-row">
+                <span class="filter-label">Topic</span>
+                <select id="topicSelect" onchange="onTopicChange()">
+                    <option value="business">The Business of the Stage</option>
+                    <option value="craft">Artists on Craft</option>
+                    <option value="audience">On Audiences</option>
+                    <option value="hustle">Hustle &amp; Survival</option>
+                </select>
+            </div>
+        
+            <div class="quote-card">
+                <p class="quote-text" id="quoteText"></p>
+                <div class="quote-meta">
+                    <span class="quote-author" id="quoteAuthor"></span>
+                    <span class="quote-tag" id="quoteTag"></span>
+                </div>
+            </div>
+        
+            <div class="actions">
+                <button class="btn-next" onclick="nextQuote()">Next quote</button>
+                <button class="btn-copy" id="copyBtn" onclick="copyQuote()">Copy</button>
+                <span class="counter" id="counter"></span>
+            </div>
+        </div>
+        
+        <footer>A project by Stage Economics (Rei Kraja)</footer>
+        <script src="script.js" defer></script>
+    </body>
+</html>

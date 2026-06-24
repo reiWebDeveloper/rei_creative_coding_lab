@@ -1,0 +1,249 @@
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+ 
+    :root {
+      --black: #0d0d0d;
+      --offwhite: #f5f0e8;
+      --gold: #c9a84c;
+      --gold-dim: #8a6e2f;
+      --red: #9b2335;
+      --muted: #6b6257;
+      --card-bg: #161410;
+      --border: rgba(201,168,76,0.2);
+    }
+ 
+    body {
+      background: var(--black);
+      color: var(--offwhite);
+      font-family: 'DM Sans', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1.5rem;
+      background-image:
+        radial-gradient(ellipse 60% 40% at 50% 0%, rgba(155,35,53,0.12) 0%, transparent 70%),
+        repeating-linear-gradient(0deg, transparent, transparent 79px, rgba(201,168,76,0.04) 79px, rgba(201,168,76,0.04) 80px),
+        repeating-linear-gradient(90deg, transparent, transparent 79px, rgba(201,168,76,0.04) 79px, rgba(201,168,76,0.04) 80px);
+    }
+ 
+    header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+ 
+    .brand {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.5rem;
+    }
+ 
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.6rem, 5vw, 2.4rem);
+      font-weight: 400;
+      color: var(--offwhite);
+      line-height: 1.2;
+    }
+ 
+    h1 em {
+      font-style: italic;
+      color: var(--gold);
+    }
+ 
+    .stage-line {
+      width: 40px;
+      height: 1px;
+      background: var(--gold);
+      margin: 1rem auto 0;
+      opacity: 0.5;
+    }
+ 
+    .container {
+      width: 100%;
+      max-width: 580px;
+    }
+ 
+    /* Dropdown */
+    .filter-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 1.5rem;
+    }
+ 
+    .filter-label {
+      font-size: 11px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+ 
+    select {
+      flex: 1;
+      background: var(--card-bg);
+      color: var(--offwhite);
+      border: 0.5px solid var(--border);
+      border-radius: 4px;
+      padding: 10px 14px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 14px;
+      cursor: pointer;
+      outline: none;
+      appearance: none;
+      -webkit-appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23c9a84c' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 14px center;
+      padding-right: 36px;
+      transition: border-color 0.2s;
+    }
+ 
+    select:hover, select:focus {
+      border-color: rgba(201,168,76,0.5);
+    }
+ 
+    select option {
+      background: #1a1714;
+    }
+ 
+    /* Quote card */
+    .quote-card {
+      background: var(--card-bg);
+      border: 0.5px solid var(--border);
+      border-radius: 6px;
+      padding: 2.25rem 2rem;
+      position: relative;
+      overflow: hidden;
+      min-height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 1.5rem;
+    }
+ 
+    .quote-card::before {
+      content: '\201C';
+      font-family: 'Playfair Display', serif;
+      font-size: 120px;
+      color: var(--gold);
+      opacity: 0.08;
+      position: absolute;
+      top: -20px;
+      left: 14px;
+      line-height: 1;
+      pointer-events: none;
+    }
+ 
+    .quote-card::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 3px; height: 100%;
+      background: linear-gradient(180deg, var(--red), var(--gold));
+      opacity: 0.7;
+    }
+ 
+    .quote-text {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1rem, 2.5vw, 1.2rem);
+      line-height: 1.7;
+      color: var(--offwhite);
+      font-weight: 400;
+      position: relative;
+      opacity: 1;
+      transition: opacity 0.25s ease, transform 0.25s ease;
+    }
+ 
+    .quote-text.fading {
+      opacity: 0;
+      transform: translateY(6px);
+    }
+ 
+    .quote-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+ 
+    .quote-author {
+      font-size: 13px;
+      color: var(--gold);
+      font-weight: 500;
+      letter-spacing: 0.03em;
+    }
+ 
+    .quote-tag {
+      font-size: 10px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border: 0.5px solid rgba(107,98,87,0.4);
+      padding: 3px 10px;
+      border-radius: 2px;
+    }
+ 
+    /* Actions */
+    .actions {
+      display: flex;
+      gap: 10px;
+      margin-top: 1.25rem;
+      align-items: center;
+    }
+ 
+    .btn-next {
+      background: var(--gold);
+      color: var(--black);
+      border: none;
+      border-radius: 4px;
+      padding: 10px 22px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.1s;
+    }
+ 
+    .btn-next:hover { background: #d4b05a; }
+    .btn-next:active { transform: scale(0.97); }
+ 
+    .btn-copy {
+      background: transparent;
+      color: var(--muted);
+      border: 0.5px solid rgba(107,98,87,0.35);
+      border-radius: 4px;
+      padding: 10px 18px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13px;
+      cursor: pointer;
+      transition: color 0.2s, border-color 0.2s;
+    }
+ 
+    .btn-copy:hover {
+      color: var(--offwhite);
+      border-color: rgba(245,240,232,0.3);
+    }
+ 
+    .counter {
+      margin-left: auto;
+      font-size: 11px;
+      color: var(--muted);
+      letter-spacing: 0.1em;
+    }
+ 
+    footer {
+      margin-top: 2.5rem;
+      text-align: center;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(107,98,87,0.5);
+    }

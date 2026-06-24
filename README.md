@@ -17,7 +17,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 
 ---
 ## 📊 Progress
-`17 / 100 experiments completed`
+`19 / 100 experiments completed`
 ---
 
 ## 🗂️ Experiments
@@ -42,8 +42,8 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 - [x] 15 — Note Taking App
 - [x] 16 — Keyboard Key Visualizer
 - [x] 17 — Drag & Drop Box
-- [ ] 18 — Random Quote Generator
-- [ ] 19 — Theme Switcher (Dark/Light)
+- [x] 18 — Random Quote Generator
+- [x] 19 — Theme Switcher (Dark/Light)
 - [ ] 20 — Interactive Grid Painter
 
 ---
