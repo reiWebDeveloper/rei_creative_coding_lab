@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Interactive Grid Painter</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <h1>Interactive Grid Painter</h1>
+
+        <div id="palette">
+            <button onclick="setColor('red', this)" style="background: red;"></button>
+            <button onclick="setColor('blue', this)" style="background: blue;"></button>
+            <button onclick="setColor('green', this)" style="background: green;"></button>
+            <button onclick="setColor('yellow', this)" style="background: yellow;"></button>
+            <button id="clear-btn" onclick="clearGrid()">Clear</button>
+        </div>
+
+        <div id="grid-container"></div>
+
+        <footer>
+            <p>Made by Rei Kraja</p>
+            <p>With Vanilla Javascript</p>
+        </footer>
+
+        <script src="script.js" defer></script>
+    </body>
+</html>
