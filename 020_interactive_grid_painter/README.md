@@ -41,7 +41,7 @@
 
 ## 🔗 Live Demo
 
-[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/020_interactive-grid-painter/)
+[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/020_interactive_grid_painter)
 
 ---
 

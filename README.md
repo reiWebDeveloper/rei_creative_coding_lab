@@ -17,7 +17,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 
 ---
 ## 📊 Progress
-`20 / 100 experiments completed`
+`21 / 100 experiments completed`
 ---
 
 ## 🗂️ Experiments
@@ -51,7 +51,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 ### Phase 2 — Animations & Interactivity (21–40)
 *Canvas, CSS animations, mouse/touch events*
 
-- [ ] 21 — Animated Progress Bar
+- [x] 21 — Animated Progress Bar
 - [ ] 22 — Loading Spinner Generator
 - [ ] 23 — Floating Bubble Animation
 - [ ] 24 — Mouse Trail Effect
