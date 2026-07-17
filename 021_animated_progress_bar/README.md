@@ -48,7 +48,7 @@
 
 ## 📸 Preview
 
-![Session-Based Loading Progress Bar Preview](previewProgressbar.png)
+![Session-Based Loading Progress Bar Preview](previewProgressBar.png)
 ![Webpage after loading progress bar](previewNH.png)
 
 ---
