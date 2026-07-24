@@ -17,7 +17,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 
 ---
 ## 📊 Progress
-`21 / 100 experiments completed`
+`22 / 100 experiments completed`
 ---
 
 ## 🗂️ Experiments
@@ -52,7 +52,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 *Canvas, CSS animations, mouse/touch events*
 
 - [x] 21 — Animated Progress Bar
-- [ ] 22 — Loading Spinner Generator
+- [x] 22 — Loading Spinner
 - [ ] 23 — Floating Bubble Animation
 - [ ] 24 — Mouse Trail Effect
 - [ ] 25 — Parallax Scroll Scene
