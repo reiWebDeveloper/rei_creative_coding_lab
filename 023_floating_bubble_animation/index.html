@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lava Lamp Ambient</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body class="ocean-blue">
+    <div class="ambient_background">
+        <div class="lava_lamp">
+            <div class="lava_lamp_glass">
+                <div class="bubble_layer">
+                    <!--Floating bubbles here-->
+                </div>
+            </div>
+            <div class="lava_lamp_base">
+                <!--Lava Lamp base static-->
+            </div>
+        </div>
+        <div class="change_theme_holder">
+            <!--3 different change theme buttons-->
+            <div class="change_theme_btn">
+                <button class="switcher_btn neonPurple" id="neon_purple"></button>
+                <span class="theme_name">Neon Purple</span>
+            </div>
+
+            <div class="change_theme_btn">
+                <button class="switcher_btn sunsetOrange" id="sunset_orange"></button>
+                <span class="theme_name">Sunset Orange</span>
+            </div>
+
+            <div class="change_theme_btn">
+                <button class="switcher_btn oceanBlue" id="ocean_blue"></button>
+                <span class="theme_name">Ocean Blue</span>
+            </div>
+        </div>
+
+        <audio id="ambient_audio" loop>
+            <source src="assets/audio/ambient_music_loop.mp3" type="audio/mpeg">
+        </audio>
+
+        <div class="audio_holder">
+            <button class="sound_toggle_btn" id="sound_toggle">
+                <i class="fa-solid fa-play"></i>
+            </button>
+            <p id="audio_btn_txt">Play for Ambient Music</p>
+        </div>
+        
+
+        <footer>
+            <p>Created by Rei Kraja with Vanilla JS</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

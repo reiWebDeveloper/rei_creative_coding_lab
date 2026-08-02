@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    /* Neon Purple Theme */
+    --bg-color-neonPurple: #1a0b2e;
+    --bg-txt-color-neonPurple: #f3e8ff;
+    --lavaLamp-base-color-neonPurple: #7b2cbf;
+    --lavaLamp-glow-neonPurple: #e0aaff;
+    --lavaLamp-bg-color-neonPurple: #3c096c;
+    --footer-txt-color-neonPurple: #4d1383;
+
+    /* Sunset Orange Theme */
+    --bg-color-sunsetOrange: #2d0f1e;
+    --bg-txt-color-sunsetOrange: #ffe8d6;
+    --lavaLamp-base-color-sunsetOrange: #d84315;
+    --lavaLamp-glow-sunsetOrange: #ffb347;
+    --lavaLamp-bg-color-sunsetOrange: #6a1b2e;
+    --footer-txt-color-sunsetOrange: #7d2338;
+
+    /* Ocean Blue Theme */
+    --bg-color-oceanBlue: #011627;
+    --bg-txt-color-oceanBlue: #d6f0ff;
+    --lavaLamp-base-color-oceanBlue: #0466c8;
+    --lavaLamp-glow-oceanBlue: #48cae4;
+    --lavaLamp-bg-color-oceanBlue: #023e7d;
+    --footer-txt-color-oceanBlue: #023e7d;
+
+    /* Neon Purple bubble colors */
+    --bubble-core-neonPurple: #f3e8ff;
+    --bubble-edge-neonPurple: #c77dff;
+
+    /* Sunset Orange bubble colors */
+    --bubble-core-sunsetOrange: #fff3e0;
+    --bubble-edge-sunsetOrange: #ffb347;
+
+    /* Ocean Blue bubble colors */
+    --bubble-core-oceanBlue: #e0fbfc;
+    --bubble-edge-oceanBlue: #48cae4;
+}
+
+/* Active theme */
+body.neon-purple {
+    --bg-color: var(--bg-color-neonPurple);
+    --txt-color: var(--bg-txt-color-neonPurple);
+    --lavaLamp-base-color: var(--lavaLamp-base-color-neonPurple);
+    --lavaLamp-bg-color: var(--lavaLamp-bg-color-neonPurple);
+    --lavaLamp-glow: var(--lavaLamp-glow-neonPurple);
+    --footer-txt-color: var(--footer-txt-color-neonPurple);
+    --bubble-core: var(--bubble-core-neonPurple);
+    --bubble-edge: var(--bubble-edge-neonPurple);
+}
+
+body.sunset-orange {
+    --bg-color: var(--bg-color-sunsetOrange);
+    --txt-color: var(--bg-txt-color-sunsetOrange);
+    --lavaLamp-base-color: var(--lavaLamp-base-color-sunsetOrange);
+    --lavaLamp-bg-color: var(--lavaLamp-bg-color-sunsetOrange);
+    --lavaLamp-glow: var(--lavaLamp-glow-sunsetOrange);
+    --footer-txt-color: var(--footer-txt-color-sunsetOrange);
+    --bubble-core: var(--bubble-core-sunsetOrange);
+    --bubble-edge: var(--bubble-edge-sunsetOrange);
+}
+
+body.ocean-blue {
+    --bg-color: var(--bg-color-oceanBlue);
+    --txt-color: var(--bg-txt-color-oceanBlue);
+    --lavaLamp-base-color: var(--lavaLamp-base-color-oceanBlue);
+    --lavaLamp-bg-color: var(--lavaLamp-bg-color-oceanBlue);
+    --lavaLamp-glow: var(--lavaLamp-glow-oceanBlue);
+    --footer-txt-color: var(--footer-txt-color-oceanBlue);
+    --bubble-core: var(--bubble-core-oceanBlue);
+    --bubble-edge: var(--bubble-edge-oceanBlue);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    font-family: "Open Sans", sans-serif;
+    color: var(--txt-color);
+    background-color: var(--bg-color);
+    letter-spacing: 1px;
+}
+
+.ambient_background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: inherit;
+}
+
+.lava_lamp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;  
+}
+
+.lava_lamp_glass {
+    overflow: hidden;
+    position: relative;
+    width: 160px;
+    height: 340px;
+    background-color: var(--lavaLamp-bg-color);
+    border-radius: 80px;
+    box-shadow: 0px 0px 20px -3px var(--lavaLamp-glow),
+                inset 0px 0px 25px 2px rgba(0, 0, 0, 0.4);
+    
+}
+
+.bubble_layer {
+    position: absolute;
+    inset: 0;
+    filter: blur(10px) contrast(20);
+    overflow: hidden;
+    background-color: black;
+    mix-blend-mode: screen;
+}
+
+.floating-bubble {
+    position: absolute;
+    bottom: 0;
+    border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+    background: radial-gradient(circle at 35% 30%, var(--bubble-core), var(--bubble-edge));
+    animation-name: float;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.lava_lamp_base {
+    width: 200px;
+    height: 60px;
+    border-radius: 80px;
+    box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.88);
+    background-color: var(--lavaLamp-base-color);
+}
+
+.change_theme_holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.change_theme_btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.switcher_btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.neonPurple {
+    background-color: #9d4edd;
+}
+
+.sunsetOrange {
+    background-color: #ff7f11;
+}
+
+.oceanBlue {
+    background-color: #00b4d8;
+}
+
+.theme_name {
+    font-size: 12px;
+}
+
+.audio_holder {
+    margin-top: 15px;
+}
+
+.sound_toggle_btn {
+    margin: 0 0 10px 0;
+    max-width: 160px;
+    background-color: var(--bg-color);
+    border: none;
+    color: var(--footer-txt-color);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#audio_btn_txt {
+    font-size: 12px;
+    font-family: inherit;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 1px;
+    color: var(--footer-txt-color);
+}
+
+footer {
+    color: var(--footer-txt-color);
+    margin-top: 40px;
+    font-size: 12px;
+}
+
+@keyframes float {
+    0% {
+        bottom: 0;
+        transform: translateX(0);
+    }
+    25% {
+        bottom: 135px;
+        transform: translateX(2px);
+    }
+    50% {
+        bottom: 280px;
+        transform: translateX(-8px);
+    }
+    75% {
+        bottom: 70px;
+        transform: translateX(4px);
+    }
+    100% {
+        bottom: 0;
+    }
+}
