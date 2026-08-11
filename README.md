@@ -17,7 +17,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 
 ---
 ## 📊 Progress
-`23 / 100 experiments completed`
+`24 / 100 experiments completed`
 ---
 
 ## 🗂️ Experiments
@@ -54,7 +54,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 - [x] 21 — Animated Progress Bar
 - [x] 22 — Loading Spinner
 - [x] 23 — Floating Bubble Animation
-- [ ] 24 — Mouse Trail Effect
+- [x] 24 — Mouse Trail Effect
 - [ ] 25 — Parallax Scroll Scene
 - [ ] 26 — Magnetic Button Interaction
 - [ ] 27 — Animated Card Hover
