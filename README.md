@@ -55,7 +55,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 - [x] 22 — Loading Spinner
 - [x] 23 — Floating Bubble Animation
 - [x] 24 — Mouse Trail Effect
-- [ ] 25 — Parallax Scroll Scene
+- [x] 25 — Parallax Scroll Scene
 - [ ] 26 — Magnetic Button Interaction
 - [ ] 27 — Animated Card Hover
 - [ ] 28 — Particle Explosion

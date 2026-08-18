@@ -1,6 +1,6 @@
 # 022 — Session-Based Loading Spinner
 
-> **Phase 1 — JS Fundamentals** | Experiment 22 of 100
+> **Phase 2 — Animations & Interactivity** | Experiment 22 of 100
 
 ---
 

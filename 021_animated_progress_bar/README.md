@@ -1,6 +1,6 @@
 # 021 — Session-Based Loading Progress Bar
 
-> **Phase 1 — JS Fundamentals** | Experiment 21 of 100
+> **Phase 2 — Animations & Interactivity** | Experiment 21 of 100
 
 ---
 

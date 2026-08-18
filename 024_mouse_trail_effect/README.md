@@ -1,6 +1,6 @@
 # 024 — Mouse Trail Effect
 
-> **Phase 1 — JS Fundamentals** | Experiment 024 of 100
+> **Phase 2 — Animations & Interactivity** | Experiment 024 of 100
 
 ---
 

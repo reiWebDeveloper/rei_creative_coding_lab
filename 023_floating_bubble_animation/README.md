@@ -1,6 +1,6 @@
 # 023 — Floating Bubble Animation
 
-> **Phase 1 — JS Fundamentals** | Experiment 23 of 100
+> **Phase 2 — Animations & Interactivity** | Experiment 23 of 100
 
 ---
 
