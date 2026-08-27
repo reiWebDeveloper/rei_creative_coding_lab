@@ -64,12 +64,15 @@ function springMotion() {
 
 }
 
-window.addEventListener('resize', ()=> {
-    // find center
+function updateCenter() {
     const btnSize = btn.getBoundingClientRect();
     x = btnSize.left + btnSize.width/2;
     y = btnSize.top + btnSize.height/2;
-})
+}
+
+window.addEventListener('resize', updateCenter);
+
+updateCenter();
 
 
 btn.addEventListener('mousemove', (e) => {
