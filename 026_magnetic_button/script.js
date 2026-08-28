@@ -70,11 +70,6 @@ function updateCenter() {
     y = btnSize.top + btnSize.height/2;
 }
 
-window.addEventListener('resize', updateCenter);
-
-updateCenter();
-
-
 btn.addEventListener('mousemove', (e) => {
 
     moveX = (e.clientX - x) * 0.7;
@@ -91,4 +86,8 @@ btn.addEventListener('mouseleave', ()=> {
    moveY = 0;
 });
 
+window.addEventListener('resize', updateCenter);
+
+updateCenter();
+console.log(x,y);
 springMotion();
