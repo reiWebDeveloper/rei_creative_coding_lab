@@ -17,7 +17,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 
 ---
 ## 📊 Progress
-`24 / 100 experiments completed`
+`27 / 100 experiments completed`
 ---
 
 ## 🗂️ Experiments
@@ -57,7 +57,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 - [x] 24 — Mouse Trail Effect
 - [x] 25 — Parallax Scroll Scene
 - [x] 26 — Magnetic Button Interaction
-- [ ] 27 — Animated Card Hover
+- [x] 27 — Animated Card Hover
 - [ ] 28 — Particle Explosion
 - [ ] 29 — Rain Simulation
 - [ ] 30 — Snow Simulation
