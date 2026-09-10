@@ -48,7 +48,7 @@
 
 ## 🔗 Live Demo
 
-[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/012_type_speed_test/)
+[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/01_JS_Fundamentals/012_type_speed_test/)
 
 ---
 

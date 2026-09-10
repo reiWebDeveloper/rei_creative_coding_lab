@@ -36,7 +36,7 @@ A simple interactive dice roller where the user clicks a button to roll a die. A
 
 ## 🔗 Live Demo
 
-[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/005_dice_rolling_simulator/)
+[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/01_JS_Fundamentals/005_dice_rolling_simulator/)
 
 ---
 

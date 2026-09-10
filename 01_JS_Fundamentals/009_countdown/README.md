@@ -40,7 +40,7 @@
 
 ## 🔗 Live Demo
 
-[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/009_countdown/)
+[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/01_JS_Fundamentals/009_countdown/)
 
 ---
 

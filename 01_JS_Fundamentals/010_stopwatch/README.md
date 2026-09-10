@@ -40,7 +40,7 @@
 
 ## 🔗 Live Demo
 
-[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/010_stopwatch/)
+[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/01_JS_Fundamentals/010_stopwatch/)
 
 ---
 

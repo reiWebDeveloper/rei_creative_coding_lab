@@ -52,7 +52,7 @@
 
 ## 🔗 Live Demo
 
-[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/013_memory_number_game/)
+[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/01_JS_Fundamentals/013_memory_number_game/)
 
 ---
 

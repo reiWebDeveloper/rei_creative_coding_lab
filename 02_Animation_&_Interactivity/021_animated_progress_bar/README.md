@@ -42,7 +42,7 @@
 
 ## 🔗 Live Demo
 
-[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/021_animated_progress_bar/)
+[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/02_Animation_&_Interactivity/021_animated_progress_bar/)
 
 ---
 

@@ -45,7 +45,7 @@ A copy button allows users to copy the password to clipboard, with a checkmark s
 
 ## 🔗 Live Demo
 
-[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/006_password_generator/)
+[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/01_JS_Fundamentals/006_password_generator/)
 
 ---
 

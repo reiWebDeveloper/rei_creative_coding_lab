@@ -37,7 +37,7 @@
 
 ## 🔗 Live Demo
 
-[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/024_mouse_trail_effect/)
+[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/02_Animation_&_Interactivity/024_mouse_trail_effect/)
 
 ---
 

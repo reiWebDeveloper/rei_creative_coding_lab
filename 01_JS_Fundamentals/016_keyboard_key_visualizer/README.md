@@ -49,7 +49,7 @@
 
 ## 🔗 Live Demo
 
-[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/016_keyboard_key_visualizer/)
+[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/01_JS_Fundamentals/016_keyboard_key_visualizer/)
 
 ---
 

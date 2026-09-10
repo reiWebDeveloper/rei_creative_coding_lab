@@ -46,7 +46,7 @@ A simple, modern tip calculator:
 
 ## 🔗 Live Demo
 
-[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/008_tip_calculator/)
+[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/01_JS_Fundamentals/008_tip_calculator/)
 
 ---
 

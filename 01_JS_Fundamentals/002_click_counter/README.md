@@ -41,7 +41,7 @@ If the user reaches **1000 clicks**, the game ends and displays a special **"MAS
 
 ## 🔗 Live Demo
 
-[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/002_click_counter/)
+[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/01_JS_Fundamentals/002_click_counter/)
 
 ---
 

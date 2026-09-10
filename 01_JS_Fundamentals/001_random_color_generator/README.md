@@ -48,7 +48,7 @@ A Copy Color button appears after generating a color and allows the user to copy
 
 ## 🔗 Live Demo
 
-[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/001_random_color_generator/)
+[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/01_JS_Fundamentals/001_random_color_generator/)
 
 ---
 

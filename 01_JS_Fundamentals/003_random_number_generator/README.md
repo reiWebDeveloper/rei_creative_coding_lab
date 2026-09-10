@@ -35,7 +35,7 @@ A gradient shadow effect gives the numbers a slot-machine window look, making it
 
 ## 🔗 Live Demo
 
-[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/003_random_number_generator/)
+[View Live](https://reiwebdeveloper.github.io/rei_creative_coding_lab/01_JS_Fundamentals/003_random_number_generator/)
 
 ---
 
