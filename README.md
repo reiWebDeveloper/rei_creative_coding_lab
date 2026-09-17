@@ -17,7 +17,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 
 ---
 ## 📊 Progress
-`27 / 100 experiments completed`
+`28 / 100 experiments completed`
 ---
 
 ## 🗂️ Experiments
@@ -58,7 +58,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 - [x] 25 — Parallax Scroll Scene
 - [x] 26 — Magnetic Button Interaction
 - [x] 27 — Animated Card Hover
-- [ ] 28 — Particle Explosion
+- [x] 28 — Particle Explosion
 - [ ] 29 — Rain Simulation
 - [ ] 30 — Snow Simulation
 - [ ] 31 — Draw Tool (Paint App)
