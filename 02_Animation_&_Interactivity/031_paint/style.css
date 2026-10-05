@@ -1,0 +1,133 @@
+:root {
+  --bg: #0f1115;
+  --surface: #1a1d24;
+  --surface-hover: #242832;
+  --border: rgba(255, 255, 255, 0.08);
+  --text: #e8eaf0;
+  --accent: #34f9b1;
+  --danger: #ff6b6b;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin: 16px 16px 0;
+  padding: 10px 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+/* color round dot */
+input[type="color"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 2px solid var(--border);
+  border-radius: 50%;
+  background: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+input[type="color"]::-webkit-color-swatch-wrapper { padding: 0; }
+input[type="color"]::-webkit-color-swatch { border: none; border-radius: 50%; }
+input[type="color"]::-moz-color-swatch { border: none; border-radius: 50%; }
+
+/* slider */
+input[type="range"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 140px;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--surface-hover);
+  cursor: pointer;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px rgba(52, 249, 177, 0.15);
+}
+input[type="range"]::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border: none;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+/* buttons */
+button {
+  height: 36px;
+  padding: 0 16px;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, transform 0.05s;
+}
+button:hover { background: var(--surface-hover); }
+button:active { transform: scale(0.97); }
+
+button.active {
+  background: rgba(52, 249, 177, 0.12);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+#clearBtn {
+  margin-left: auto; /* pushes Clear to the far right */
+  color: var(--danger);
+}
+#clearBtn:hover {
+  background: rgba(255, 107, 107, 0.12);
+  border-color: rgba(255, 107, 107, 0.4);
+}
+
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* canvas as a paper sheet */
+.stage {
+  flex: 1;
+  min-height: 0; /* lets a flex child shrink properly */
+  padding: 16px;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+  cursor: crosshair;
+  touch-action: none;
+}
