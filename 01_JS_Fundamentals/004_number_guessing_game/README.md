@@ -64,4 +64,4 @@ The game can be restarted at any time using the **Generate** button.
 
 ---
 
-[← Back to Main README](../README.md)
+[← Back to Main README](../../README.md)

@@ -62,4 +62,4 @@ A simple, modern tip calculator:
 
 ---
 
-[← Back to Main README](../README.md)
+[← Back to Main README](../../README.md)

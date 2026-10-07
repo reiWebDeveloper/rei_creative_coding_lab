@@ -58,4 +58,4 @@ If the user reaches **1000 clicks**, the game ends and displays a special **"MAS
 
 ---
 
-[← Back to Main README](../README.md)
+[← Back to Main README](../../README.md)

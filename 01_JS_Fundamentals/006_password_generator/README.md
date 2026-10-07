@@ -61,4 +61,4 @@ A copy button allows users to copy the password to clipboard, with a checkmark s
 
 ---
 
-[← Back to Main README](../README.md)
+[← Back to Main README](../../README.md)

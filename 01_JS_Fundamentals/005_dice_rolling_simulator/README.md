@@ -52,4 +52,4 @@ A simple interactive dice roller where the user clicks a button to roll a die. A
 
 ---
 
-[← Back to Main README](../README.md)
+[← Back to Main README](../../README.md)

@@ -64,4 +64,4 @@ A Copy Color button appears after generating a color and allows the user to copy
 
 ---
 
-[← Back to Main README](../README.md)
+[← Back to Main README](../../README.md)
