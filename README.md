@@ -17,7 +17,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 
 ---
 ## 📊 Progress
-`31 / 100 experiments completed`
+`32 / 100 experiments completed`
 ---
 
 ## 🗂️ Experiments
@@ -62,7 +62,7 @@ Each experiment solves a real problem or explores a real concept — no tutorial
 - [x] 29 — Rain Simulation
 - [x] 30 — Snow Simulation
 - [x] 31 — Draw Tool (Paint App)
-- [ ] 32 — Bouncing Ball Simulation
+- [x] 32 — Bouncing Ball Simulation
 - [ ] 33 — Multiple Ball System
 - [ ] 34 — Ball Collision Engine
 - [ ] 35 — Fireworks Simulation

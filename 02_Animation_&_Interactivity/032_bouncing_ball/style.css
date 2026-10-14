@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    touch-action: none
+}
+
+#ball {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+#msgContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    pointer-events: none
+}
+
+.msg {
+    font-size: 1.5em;
+    font-family: monospace, sans-serif;
+    color: #afaaaa5f;
+    font-weight: bold;
+}
+
+#second_txt {
+    margin-top: 20px;
+}
