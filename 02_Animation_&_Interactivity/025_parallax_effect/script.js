@@ -30,7 +30,7 @@ function ease(localValue) {
 
 document.addEventListener('scroll', ()=> {
     let { scrollY } = window;
-    let progress = scrollY/(size.height - window.innerHeight);
+    let progress = Math.min(Math.max(scrollY / (size.height - window.innerHeight), 0), 1);
 
     // background opacity
     let opacityBefore = (progress - 0.3)/(0.5-0.3);
@@ -94,6 +94,4 @@ document.addEventListener('scroll', ()=> {
     const moonProgress = ease(progress);
     let moonOffset = 200 - (moonProgress * 400);
     moon.style.left = `calc(50% + ${moonOffset}px)`;
-    
-    console.log(progress);
 });
